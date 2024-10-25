@@ -48,7 +48,9 @@ The datasets used in this project are from the United Nations Environment Progra
 
 * Threatened Species: Information on the number of threatened species worldwide.
 
-* These datasets are publicly available on the UNEP website or through the UN Data Portal.
+* These datasets are publicly available on Kaggle, the UNEP website or through the UN Data Portal.
+
+* Here is a link to the Kaggle dataset > https://www.kaggle.com/datasets/vineethakkinapalli/united-nations-environment-data 
 
 
 ## Technologies Used
