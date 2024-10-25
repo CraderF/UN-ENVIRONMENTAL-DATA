@@ -1,7 +1,7 @@
 
 # UN Environmental Data Analysis
 ## Project Overview
-This project explores key environmental indicators from United Nations datasets, including CO2 emissions, forest cover, and threatened species. Using Python for data manipulation and SQL for querying, the analysis provides insights into trends in global carbon emissions, deforestation, and biodiversity loss over time.
+This project explores key environmental indicators from United Nations datasets, including CO2 emissions, forest cover, permanent crop cover and threatened species. Using Python for data manipulation and SQL for querying, the analysis provides insights into trends in global carbon emissions, deforestation, and biodiversity loss over time.
 
 The project demonstrates key data science skills, including data cleaning, exploratory data analysis (EDA), and data visualization, which are crucial for making data-driven decisions in the environmental field.
 
