@@ -7,13 +7,21 @@ The project demonstrates key data science skills, including data cleaning, explo
 
 ## Table of Contents
 Project Motivation
+
 Data Sources
+
 Technologies Used
+
 Project Workflow
+
 Key Findings
+
 Installation Instructions
+
 Contributing
+
 Contact
+
 
 ## Project Motivation
 Climate change, deforestation, and species extinction are among the most pressing global environmental issues. Understanding historical trends in carbon emissions, land use, and biodiversity loss is essential for shaping sustainable policies and mitigating environmental impacts. As a father of two beautiful daughters, these issues are extremely pressing. I believe that exploring the data, and show you all the same data, is the key to understanding just how important this is on a global scale.
