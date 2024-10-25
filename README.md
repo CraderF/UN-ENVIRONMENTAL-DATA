@@ -34,7 +34,7 @@ In this project, the goal is to:
 
 * Use SQL and Python for data analysis and visualization.
 
-* I wish to showcase my practical data science skills which are applicable to the environmental sector, particularly in roles related to data analytics, sustainability, and environmental protection.
+* Showcase my practical data science skills which are applicable to the environmental sector, particularly in roles related to data analytics, sustainability, and environmental protection.
 
 
 ## Data Sources
