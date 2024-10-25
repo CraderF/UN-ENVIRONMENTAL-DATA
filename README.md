@@ -6,21 +6,21 @@ This project explores key environmental indicators from United Nations datasets,
 The project demonstrates key data science skills, including data cleaning, exploratory data analysis (EDA), and data visualization, which are crucial for making data-driven decisions in the environmental field.
 
 ## Table of Contents
-Project Motivation
+* Project Motivation
 
-Data Sources
+* Data Sources
 
-Technologies Used
+* Technologies Used
 
-Project Workflow
+* Project Workflow
 
-Key Findings
+* Key Findings
 
-Installation Instructions
+* Installation Instructions
 
-Contributing
+* Contributing
 
-Contact
+* Contact
 
 
 ## Project Motivation
@@ -28,68 +28,68 @@ Climate change, deforestation, and species extinction are among the most pressin
 
 In this project, the goal is to:
 
-Analyze and visualize trends in global CO2 emissions from 1975 to 2017.
+* Analyze and visualize trends in global CO2 emissions from 1975 to 2017.
 
-Explore changes in global forest cover, threatened species and permanent crop cover. 
+* Explore changes in global forest cover, threatened species and permanent crop cover. 
 
-Use SQL and Python for data analysis and visualization.
+* Use SQL and Python for data analysis and visualization.
 
-I wish to showcase my practical data science skills which are applicable to the environmental sector, particularly in roles related to data analytics, sustainability, and environmental protection.
+* I wish to showcase my practical data science skills which are applicable to the environmental sector, particularly in roles related to data analytics, sustainability, and environmental protection.
 
 
 ## Data Sources
 The datasets used in this project are from the United Nations Environment Programme (UNEP) and cover:
 
-CO2 Emissions: Global carbon dioxide emissions data from 1975 to 2017.
+* CO2 Emissions: Global carbon dioxide emissions data from 1975 to 2017.
 
-Forest Cover: Data on forest area in various countries over several decades.
+* Forest Cover: Data on forest area in various countries over several decades.
 
-Permanent Crop Cover: Data on permenent crop growth globally. 
+* Permanent Crop Cover: Data on permenent crop growth globally. 
 
-Threatened Species: Information on the number of threatened species worldwide.
+* Threatened Species: Information on the number of threatened species worldwide.
 
-These datasets are publicly available on the UNEP website or through the UN Data Portal.
+* These datasets are publicly available on the UNEP website or through the UN Data Portal.
 
 
 ## Technologies Used
 **Python Libraries**:
 
-pandas for data manipulation.
+* pandas for data manipulation.
 
-NumPy for numerical operations.
+* NumPy for numerical operations.
 
-Matplotlib and Plotly for data visualization.
+* Matplotlib and Plotly for data visualization.
 
-SQLAlchemy for connecting to and querying SQL databases.
+* SQLAlchemy for connecting to and querying SQL databases.
 
-SQL (mySQL): Used for joining datasets and extracting relevant data for analysis.
+* SQL (mySQL): Used for joining datasets and extracting relevant data for analysis.
 
-Jupyter Notebook: For code execution and presenting the analysis in an interactive format.
+* Jupyter Notebook: For code execution and presenting the analysis in an interactive format.
 
 ## Project Workflow
 **Data Loading**:
 
-Data is loaded into a SQL Database through mySQL from CSV files. 
+* Data is loaded into a SQL Database through mySQL from CSV files. 
 
-Data is loaded from the SQL database into Python using SQLAlchemy.
+* Data is loaded from the SQL database into Python using SQLAlchemy.
 
 **SQL Queries**:
 
-Join different datasets using SQL to combine CO2 emissions with forest cover and species data.
+* Join different datasets using SQL to combine CO2 emissions with forest cover and species data.
 
-Perform data transformations (interpolations, conversions) using Python.
+* Perform data transformations (interpolations, conversions) using Python.
 
 **Data Cleaning**:
 
-Handle missing values and data type conversions.
+* Handle missing values and data type conversions.
 
-Convert CO2 emissions data into metric tons for consistency.
+* Convert CO2 emissions data into metric tons for consistency.
 
-Creating 'Year' columns in the combined tables for sorting.
+* Creating 'Year' columns in the combined tables for sorting.
 
 **Exploratory Data Analysis (EDA)**:
 
-Create visualizations to understand trends in emissions, forest cover, and threatened species.
+* Create visualizations to understand trends in emissions, forest cover, and threatened species.
 
 ## Conclusions:
 
@@ -105,20 +105,20 @@ To run this project locally, follow these steps:
 
 Clone the Repository:
 
-git clone https://github.com/CraderF/UN-Environmental-Data-Analysis.git
+* git clone https://github.com/CraderF/UN-Environmental-Data-Analysis.git
 
 Navigate to the Project Directory:
 
-cd UN-Environmental-Data-Analysis
+* cd UN-Environmental-Data-Analysis
 
 Install the Required Python Libraries: You can install the required dependencies using pip:
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 Run the Jupyter Notebook: Start Jupyter Notebook and open the UN_ENVIRONMENTAL_DATA.ipynb file:
 
-Copy code
-jupyter notebook
+* jupyter notebook
+  
 Run the Analysis: Execute the cells in the notebook to run the full analysis and see the visualizations.
 
 ## Contributing
