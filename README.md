@@ -15,7 +15,7 @@ Installation Instructions
 Contributing
 Contact
 
-### Project Motivation
+## Project Motivation
 Climate change, deforestation, and species extinction are among the most pressing global environmental issues. Understanding historical trends in carbon emissions, land use, and biodiversity loss is essential for shaping sustainable policies and mitigating environmental impacts. As a father of two beautiful daughters, these issues are extremely pressing. I believe that exploring the data, and show you all the same data, is the key to understanding just how important this is on a global scale.
 
 In this project, the goal is to:
@@ -25,7 +25,7 @@ Explore changes in global forest cover, threatened species and permanent crop co
 Use SQL and Python for data analysis and visualization.
 I wish to showcase my practical data science skills which are applicable to the environmental sector, particularly in roles related to data analytics, sustainability, and environmental protection.
 
-### Data Sources
+## Data Sources
 The datasets used in this project are from the United Nations Environment Programme (UNEP) and cover:
 
 CO2 Emissions: Global carbon dioxide emissions data from 1975 to 2017.
@@ -34,7 +34,7 @@ Permanent Crop Cover: Data on permenent crop growth globally.
 Threatened Species: Information on the number of threatened species worldwide.
 These datasets are publicly available on the UNEP website or through the UN Data Portal.
 
-### Technologies Used
+## Technologies Used
 Python Libraries:
 
 pandas for data manipulation.
@@ -45,7 +45,7 @@ SQL (mySQL): Used for joining datasets and extracting relevant data for analysis
 
 Jupyter Notebook: For code execution and presenting the analysis in an interactive format.
 
-### Project Workflow
+## Project Workflow
 Data Collection & Loading:
 
 Data is loaded into a SQL Database through mySQL from CSV files. 
@@ -66,7 +66,7 @@ SQL Queries:
 Join different datasets using SQL to combine CO2 emissions with forest cover and species data.
 Perform data transformations (interpolations, conversions) using Python.
 
-### Conclusions:
+## Conclusions:
 
 Key Findings
 Global CO2 Emissions: From 1975 to 2017, global CO2 emissions increased significantly. This increase was by 18,859,079,393 metric tons of Carbon Dioxide.
@@ -75,37 +75,30 @@ Permanent Crop Cover: The increase in permanent crop cover aligns and indicates 
 Biodiversity Loss: There is a clear correlation between declining forest cover and an increase in the number of threatened species, indicating the need for integrated conservation efforts.
 These insights represent the beginning of our understanding of these interconnected issues and provide a glimpse into the real data provided by the United Nations. This data serves as a wake-up call for us all, showing the critical need for immediate action. We must take steps, however small, to address these pressing challenges and work towards a more sustainable future.
 
-### Installation Instructions
+## Installation Instructions
 To run this project locally, follow these steps:
 
 Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/CraderF/UN-Environmental-Data-Analysis.git
+
 Navigate to the Project Directory:
 
-bash
-Copy code
 cd UN-Environmental-Data-Analysis
+
 Install the Required Python Libraries: You can install the required dependencies using pip:
 
-Copy code
 pip install -r requirements.txt
+
 Run the Jupyter Notebook: Start Jupyter Notebook and open the UN_ENVIRONMENTAL_DATA.ipynb file:
 
 Copy code
 jupyter notebook
 Run the Analysis: Execute the cells in the notebook to run the full analysis and see the visualizations.
 
-### Contributing
-If you'd like to contribute to this project, feel free to:
+## Contributing
 
-Fork the repository
-Create a new branch (git checkout -b feature/YourFeature)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/YourFeature)
-Open a pull request
+If you'd like to contribute, please fork the repository and make any changes you'd like. Pull requests are always welcome.
 
 ## Contact
 Feel free to reach out if you have any questions or feedback:
