@@ -35,7 +35,7 @@ Threatened Species: Information on the number of threatened species worldwide.
 These datasets are publicly available on the UNEP website or through the UN Data Portal.
 
 ## Technologies Used
-Python Libraries:
+**Python Libraries**:
 
 pandas for data manipulation.
 NumPy for numerical operations.
@@ -46,29 +46,29 @@ SQL (mySQL): Used for joining datasets and extracting relevant data for analysis
 Jupyter Notebook: For code execution and presenting the analysis in an interactive format.
 
 ## Project Workflow
-Data Collection & Loading:
+**Data Loading**:
 
 Data is loaded into a SQL Database through mySQL from CSV files. 
 Data is loaded from the SQL database into Python using SQLAlchemy.
 
-Data Cleaning:
+**SQL Queries**:
+
+Join different datasets using SQL to combine CO2 emissions with forest cover and species data.
+Perform data transformations (interpolations, conversions) using Python.
+
+**Data Cleaning**:
 
 Handle missing values and data type conversions.
 Convert CO2 emissions data into metric tons for consistency.
 Creating 'Year' columns in the combined tables for sorting.
 
-Exploratory Data Analysis (EDA):
+**Exploratory Data Analysis (EDA)**:
 
 Create visualizations to understand trends in emissions, forest cover, and threatened species.
 
-SQL Queries:
-
-Join different datasets using SQL to combine CO2 emissions with forest cover and species data.
-Perform data transformations (interpolations, conversions) using Python.
-
 ## Conclusions:
 
-Key Findings
+**Key Findings**
 Global CO2 Emissions: From 1975 to 2017, global CO2 emissions increased significantly. This increase was by 18,859,079,393 metric tons of Carbon Dioxide.
 Forest Cover: Global deforestation trends continue to cause forest cover to shrink globally. 
 Permanent Crop Cover: The increase in permanent crop cover aligns and indicates that it is a major contributor to the declining forest cover.
@@ -103,7 +103,11 @@ If you'd like to contribute, please fork the repository and make any changes you
 ## Contact
 Feel free to reach out if you have any questions or feedback:
 
-Felix Crader
-Email: felixcrader@gmail.com
-LinkedIn: www.linkedin.com/in/felixcrader
-GitHub: https://github.com/CraderF 
+### Felix Crader
+
+**Email**: felixcrader@gmail.com
+
+**LinkedIn**: www.linkedin.com/in/felixcrader
+
+**GitHub**: https://github.com/CraderF 
+
