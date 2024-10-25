@@ -29,26 +29,39 @@ Climate change, deforestation, and species extinction are among the most pressin
 In this project, the goal is to:
 
 Analyze and visualize trends in global CO2 emissions from 1975 to 2017.
+
 Explore changes in global forest cover, threatened species and permanent crop cover. 
+
 Use SQL and Python for data analysis and visualization.
+
 I wish to showcase my practical data science skills which are applicable to the environmental sector, particularly in roles related to data analytics, sustainability, and environmental protection.
+
 
 ## Data Sources
 The datasets used in this project are from the United Nations Environment Programme (UNEP) and cover:
 
 CO2 Emissions: Global carbon dioxide emissions data from 1975 to 2017.
+
 Forest Cover: Data on forest area in various countries over several decades.
+
 Permanent Crop Cover: Data on permenent crop growth globally. 
+
 Threatened Species: Information on the number of threatened species worldwide.
+
 These datasets are publicly available on the UNEP website or through the UN Data Portal.
+
 
 ## Technologies Used
 **Python Libraries**:
 
 pandas for data manipulation.
+
 NumPy for numerical operations.
+
 Matplotlib and Plotly for data visualization.
+
 SQLAlchemy for connecting to and querying SQL databases.
+
 SQL (mySQL): Used for joining datasets and extracting relevant data for analysis.
 
 Jupyter Notebook: For code execution and presenting the analysis in an interactive format.
@@ -57,17 +70,21 @@ Jupyter Notebook: For code execution and presenting the analysis in an interacti
 **Data Loading**:
 
 Data is loaded into a SQL Database through mySQL from CSV files. 
+
 Data is loaded from the SQL database into Python using SQLAlchemy.
 
 **SQL Queries**:
 
 Join different datasets using SQL to combine CO2 emissions with forest cover and species data.
+
 Perform data transformations (interpolations, conversions) using Python.
 
 **Data Cleaning**:
 
 Handle missing values and data type conversions.
+
 Convert CO2 emissions data into metric tons for consistency.
+
 Creating 'Year' columns in the combined tables for sorting.
 
 **Exploratory Data Analysis (EDA)**:
